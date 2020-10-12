@@ -14,5 +14,7 @@ int main() {
         sum += 1;
     }
     
+    cout << sum << endl;
+
     return 0;
 }
