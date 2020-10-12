@@ -11,7 +11,7 @@ int main() {
 
     while (cin >> i)
     {
-        sum += 1;
+        sum += i;
     }
     
     cout << sum << endl;
