@@ -11,6 +11,9 @@ int main()
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
     
     // Enter your code here
+
+    // Interesting way
+    string num[10] = {"Greater than 9", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     
     /* Such method
     if (n > 9) {
