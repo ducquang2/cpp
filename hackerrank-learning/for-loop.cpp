@@ -13,7 +13,7 @@ int main() {
         }
     }
     else if ((a < b) && (b > 9)) { 
-        for (i = a; i <= b; i++) {
+        for (i = a; i <= 9; i++) {
             cout << num[i - 1] << endl;
         }
         for (i = 10; i <= b; i++) {
