@@ -6,6 +6,16 @@ void update(int *a,int *b) {
     (*a)=(*a)+(*b);
     (*b)=abs((*a)-2*(*b));
     
+    // if we don't use the <cmath> library
+    /* if(*a>*b){
+    *b = *a-*b;
+    *a = *a -*b +*a;
+    }
+    else {
+    *b = *b-*a;
+    *a = *a + *b + *a;
+    }  */     
+
 }
 
 int main() {
