@@ -14,6 +14,13 @@ int main()
 
     // Interesting way
     string num[10] = {"Greater than 9", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+
+    if (n > 9) {
+        cout << num[0];
+    }
+    else if (n > 0) {
+        cout << num[n];
+    }
     
     /* Such method
     if (n > 9) {
