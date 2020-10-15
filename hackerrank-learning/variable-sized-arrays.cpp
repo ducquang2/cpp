@@ -18,6 +18,8 @@ int main() {
             cin >> value;
             ivec.push_back(value);
         }
+        nvec.push_back(ivec);
     }
+    
     return 0;
 }
