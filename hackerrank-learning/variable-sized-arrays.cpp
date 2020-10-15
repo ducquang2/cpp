@@ -20,6 +20,8 @@ int main() {
         }
         nvec.push_back(ivec);
     }
-    
+    for (int k = 0; k < q; ++k) {
+        
+    }
     return 0;
 }
