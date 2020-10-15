@@ -21,7 +21,8 @@ int main() {
         nvec.push_back(ivec);
     }
     for (int k = 0; k < q; ++k) {
-        
+        cin >> which >> index;
+        cout << nvec[which][index] << endl;
     }
     return 0;
 }
