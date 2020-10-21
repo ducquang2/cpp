@@ -16,6 +16,7 @@ vector<int> parseInts(string str) {
         vec.push_back(temp);   // Push the int onto the vector
     }
     
+    return vec; // Return the vector of ints
 }
 
 int main() {
