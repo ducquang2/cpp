@@ -5,6 +5,7 @@ using namespace std;
 
 vector<int> parseInts(string str) {
 	// Complete this function
+    vector<int> vec; // Declares a vector to store the ints
 }
 
 int main() {
