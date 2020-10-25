@@ -39,6 +39,11 @@ public:
     string get_last_name() {
         return last_name;
     }
+    string to_string() {
+        string result;
+        result = std::to_string(age) + "," + get_first_name() + "," + get_last_name() + "," + std::to_string(standard);
+        return result;
+    }
 };
 
 int main() {
