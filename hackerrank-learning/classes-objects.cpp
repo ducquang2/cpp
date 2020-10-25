@@ -7,6 +7,23 @@
 using namespace std;
 
 // Write your Student class here
+class Student
+{
+private:
+    int scores[5];
+public:
+    Student(/* args */);
+    ~Student();
+};
+
+Student::Student(/* args */)
+{
+}
+
+Student::~Student()
+{
+}
+
 
 int main() {
     int n; // number of students
