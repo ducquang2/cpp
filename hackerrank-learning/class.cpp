@@ -5,6 +5,14 @@ using namespace std;
 /* 
 Enter code for class here
 */
+class Student
+{
+private:
+    int age, standard;
+    string first_name, last_name;
+public:
+    
+    
 
 
 int main() {
