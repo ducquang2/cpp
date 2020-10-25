@@ -26,6 +26,20 @@ public:
         last_name = last_name_in;
     }
 
+    // getter
+    int get_age() {
+        return age;
+    }
+    int get_standard() {
+        return standard;
+    }
+    string get_first_name() {
+        return first_name;
+    }
+    string get_last_name() {
+        return last_name;
+    }
+};
 
 int main() {
     int age, standard;
