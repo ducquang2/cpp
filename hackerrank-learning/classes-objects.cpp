@@ -11,18 +11,10 @@ class Student
 {
 private:
     int scores[5];
+    int sum;
 public:
-    Student(/* args */);
-    ~Student();
+    
 };
-
-Student::Student(/* args */)
-{
-}
-
-Student::~Student()
-{
-}
 
 
 int main() {
