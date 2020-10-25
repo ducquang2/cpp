@@ -36,3 +36,23 @@ int main() {
 }
 */
 
+/* Third way
+int main() {
+    string a, b;
+    char temp;
+    int c, d;
+    cin >> a >> b;
+
+    c = a.size();
+    d = b.size();
+
+    cout << c << " " << d << endl;
+    cout << a + b << "\n";
+    temp = a[0];
+    a[0] = b[0];
+    b[0] = temp;
+    cout << a << " " << b << endl;
+
+    return 0;
+}
+*/
