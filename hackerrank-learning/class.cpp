@@ -12,7 +12,19 @@ private:
     string first_name, last_name;
 public:
     
-    
+    // setter
+    void set_age(int age_in) {
+        age = age_in;
+    }
+    void set_standard(unsigned standard_in) {
+        standard = standard_in;
+    }
+    void set_first_name(string first_name_in) {
+        first_name = first_name_in;
+    }
+    void set_last_name(string last_name_in) {
+        last_name = last_name_in;
+    }
 
 
 int main() {
@@ -25,7 +37,7 @@ int main() {
     st.set_age(age);
     st.set_standard(standard);
     st.set_first_name(first_name);
-    st.set_lasr_name(last_name);
+    st.set_last_name(last_name);
 
     cout << st.get_age() << "\n";
     cout << st.get_last_name() << ", " << st.get_first_name() << endl;
