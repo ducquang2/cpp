@@ -4,7 +4,7 @@ int main(){
     int n;
     cout << "Nhap vao so nguyen n: ";
     cin >> n;
-    int i=0;
+    int i = 0;
     while (n >= 10) {
         n /= 10; // hay n = n /10;
         i++;
