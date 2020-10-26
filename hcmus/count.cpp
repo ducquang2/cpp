@@ -4,11 +4,11 @@ int main(){
     int n;
     cout << "Nhap vao so nguyen n: ";
     cin >> n;
-    int dem=0;
-    while(n>=10){
-        n/=10; // hay n = n /10;
-        dem++;
+    int i=0;
+    while (n >= 10) {
+        n /= 10; // hay n = n /10;
+        i++;
     }
-    cout<<"So luong chu so cua so nguyen la: "<<dem+1<<endl;
+    cout << "So luong chu so cua so nguyen la: " << i + 1 << endl;
     
 }
